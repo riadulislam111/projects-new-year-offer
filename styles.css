@@ -203,3 +203,69 @@
 .offer-right img{
     width:140px;
 }
+
+/* holiday offer css  */
+.holiday-sale {
+    max-width: 1320px;
+    margin: 120px auto;
+}
+
+.holiday-content {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 70px;
+}
+
+.holiday-content h4 {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.holiday-content h1 {
+    font-size: 72px;
+    margin-bottom: 24px;
+}
+
+.holiday-content span {
+    color: #FF0000;
+}
+
+.holiday-content p {
+    color: #757575;
+    line-height: 32px;
+}
+
+/* image section  */
+
+.holiday-banner {
+position: relative;
+height: 700px;
+}
+
+/* bottom banner  */
+.bottom-banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/* gift box  */
+
+.gift-box {
+    position: absolute;
+    left: 0;
+    bottom: 40px;
+    width: 650px;
+    z-index: 2;
+}
+
+/* discount  */
+
+.discount {
+    position: absolute;
+    right: 290px;
+    bottom: 340px;
+    width: 220px;
+    z-index: 3;
+}
