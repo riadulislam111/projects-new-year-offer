@@ -1,0 +1,205 @@
+/* header banner  */
+.banner {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+.banner img {
+    display: block;
+    width: 100%;
+    max-width: 1320px;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.banner-content p {
+    font-size: 32px;
+    margin-bottom: 16px;
+
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 0;
+}
+.banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.banner-content {
+    position: absolute;
+    z-index: 1;
+}
+
+/* happy new year section css */
+.offer-section{
+    max-width: 800px;
+    margin: 120px auto;
+    text-align: center;
+}
+
+.offer-content h1{
+    font-size: 88px;
+    font-weight: 700;
+    color: #FF0000;
+    margin-bottom: 30px;
+}
+
+.offer-content p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+    margin-bottom: 16px;
+}
+
+.offer-content h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #070211;
+    margin-bottom: 48px;
+}
+
+.offer-section img{
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* new park section css  */
+.event-section {
+    max-width: 1320px;
+    margin: 120px auto;
+    padding: 100px 0;
+    text-align: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.12)0%,
+    rgba(255,0,0,0) 100%);
+    border-radius: 16px;
+}
+
+.event-section p {
+    font-size: 32px;
+    font-weight: 600;
+    color: #070211;
+    margin-bottom: 15px;
+}
+
+.event-section span {
+    color: #FF0000;
+}
+
+.join-btn {
+    margin-top: 40px;
+    padding: 16px 32px;
+    background: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.join-btn:hover {
+    background: #d60000;
+}
+
+/* new best offer section css  */
+
+.offer-coming{
+    max-width:1320px;
+    margin:120px auto;
+}
+
+.offer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:70px;
+}
+
+/* Left */
+
+.offer-left{
+    flex:1;
+}
+
+.offer-left h4{
+    color:#FF0000;
+    font-size:24px;
+    margin-bottom:16px;
+}
+
+.offer-left h2{
+    font-size:48px;
+    color:#070211;
+    margin-bottom:22px;
+}
+
+.offer-left p{
+    color:#757575;
+    line-height:32px;
+    font-size:20px;
+}
+
+/* Middle */
+
+.offer-middle{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.circle{
+    width:460px;
+    height:460px;
+    border:15px solid #FF0000;
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.circle img{
+    width:360px;
+    height:360px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+/* Right */
+
+.offer-right{
+    flex:1;
+}
+
+.offer-right h2{
+    color:#FF0000;
+    font-size:48px;
+    margin-bottom:16px;
+}
+
+.offer-right p{
+    color:#757575;
+    font-size:20px;
+    line-height:32px;
+    margin-bottom:40px;
+}
+
+.offer-right img{
+    width:140px;
+}
