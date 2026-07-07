@@ -269,3 +269,123 @@ height: 700px;
     width: 220px;
     z-index: 3;
 }
+
+/* best offer sections css  */
+
+.best-gift-container{
+    max-width:1320px;
+    margin:120px auto;
+}
+
+/* Text */
+
+.gift-content{
+    max-width:900px;
+    margin-bottom:48px;
+}
+
+.gift-content h4{
+    color:#FF0000;
+    font-size:24px;
+    margin-bottom:16px;
+}
+
+.gift-content h2{
+    font-size:48px;
+    color:#070211;
+    margin-bottom:22px;
+}
+
+.gift-content p{
+    color:#757575;
+    font-size:20px;
+    line-height:32px;
+}
+
+/* Gallery */
+
+.gift-gallery{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:24px;
+}
+
+.gift-gallery img{
+    width:100%;
+    display:block;
+    border-radius:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.gift-gallery img:hover{
+    transform:scale(1.08);
+}
+
+/* newsletter section css  */
+
+.newsletter{
+    max-width:1320px;
+    margin:120px auto;
+    padding:80px 120px;
+
+    text-align:center;
+
+    background:#FFF2F2;
+    border-radius:16px;
+}
+
+.newsletter img{
+    width:150px;
+    margin-bottom:40px;
+}
+
+.newsletter h2{
+    font-size:48px;
+    color:#070211;
+    margin-bottom:22px;
+}
+
+.newsletter p{
+    max-width:850px;
+    margin:0 auto 48px;
+
+    color:#757575;
+    font-size:20px;
+    line-height:32px;
+}
+
+/* Input + Button */
+
+.subscribe-box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.subscribe-box input{
+    width:420px;
+    padding:20px 25px;
+
+    border:none;
+    outline:none;
+
+    font-size:18px;
+
+    border-radius:50px 0 0 50px;
+}
+
+.subscribe-box button{
+    padding:20px 40px;
+
+    border:none;
+    background:#FF0000;
+    color:white;
+
+    font-size:20px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    border-radius:0 50px 50px 0;
+}
